@@ -20,7 +20,7 @@ st.set_page_config(page_title="Watermark Remover", layout="centered")
 st.title("🧼 Watermark Remover")
 
 uploaded_file = st.file_uploader("Upload your video file", type=["mp4", "mov", "avi"])
-
+ 
 if uploaded_file:
     input_path = Path("input") / uploaded_file.name
     output_path = Path("output") / f"cleaned_{uploaded_file.name}"
@@ -37,6 +37,7 @@ if uploaded_file:
     st.success("Done!")
     st.video(str(output_path))
     st.download_button("📥 Download cleaned video", data=open(output_path, "rb"), file_name=output_path.name)
+
 
 
 
