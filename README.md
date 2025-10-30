@@ -16,7 +16,7 @@ This project uses AI to remove watermarks from Sora 2 generated videos. When a u
 # Installation
 Before using the watermark remover, you need to set it up on your pc. Clone it using Git:
 ```bash
-git clone https://github.com/hate0s/sora2-watermark-remover
+git clone https://github.com/oyokki/sora2-watermark-remover
 ```
 Then you need to install the dependencies:
 ```bash
