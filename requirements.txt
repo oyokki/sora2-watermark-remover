@@ -1,6 +1,7 @@
 requests
 streamlit
-ffmpeg-python
+ffmpeg-python 
 pillow
 numpy
 fastapi
+
