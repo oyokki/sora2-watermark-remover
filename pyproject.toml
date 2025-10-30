@@ -1,7 +1,7 @@
 [build-system]
 requires = ["setuptools>=61.0", "wheel"] 
 build-backend = "setuptools.build_meta"
-
+ 
 [project]
 name = "sora2-watermark-remover"
 version = "1.1.3"
