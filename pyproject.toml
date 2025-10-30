@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sora2-watermark-remover"
+version = "1.1.3"
+description = "Watermark Remover for Sora 2 Generated Videos"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GNU" }
+
+authors = [
+  { name = "Noah Cole", email = "sponosdaddya@gmail.com" }
+]
