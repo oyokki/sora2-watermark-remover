@@ -1,13 +1,10 @@
 #! /usr/bin/env python3
-# Instagram Scraper
-# Coded by sc1341 
-# http://github.com/sc1341/InstagramOSINT
 # I am not responsible for anything you do with this script
 # This is mean to be imported as a python module for use in custom applications
 #
 #
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 import json
 import os
 import requests
