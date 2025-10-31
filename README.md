@@ -21,7 +21,7 @@ git clone https://github.com/oyokki/sora2-watermark-remover
 Then you need to install the dependencies:
 ```bash
 cd sora2-watermark-remover
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 # Usage
